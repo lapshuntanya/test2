@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="box-left">
+			<form action="">
+				<div>Задний фон:
+					<input type="color" tag="background">
+				</div>
+				<div>Ширина (px):
+					<input type="range" tag="width" min = "150" max="800" value="150">
+				</div>
+				<div>Высота (px):
+					<input type="range" tag="height" min = "150" max="900" value="150">
+				</div>
+				<div>Внутренний отступ (px):
+					<input type="range" tag="padding" min = "0" max="50" value="0">
+				</div>
+				<div>Внешний отступ (px):
+					<input type="range" tag="margin" min = "0" max="50" value="0">
+				</div>
+				<div>Цвет текста:
+					<input type="color" tag="color">
+				</div>
+
+				<div>
+					<input type="button" value="Получить CSS код" onclick="getCode();">
+				</div>
+				<div>
+					<textarea id="code" cols="30" rows="10">						
+					</textarea>
+				</div>
+
+			</form>
+		</div>
+<!-- //////////////////////////////////////////////// -->
+		<div class="box-right">
+			<div id="box">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, quae! Nemo et in, voluptas totam dicta reiciendis adipisci quos! Ratione dolores non commodi quaerat pariatur a! Sunt tempora veniam ullam.
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.box-left, .box-right{
+	width: 48%;
+	float:left;
+	margin: 10px;
+	border: 1px solid grey;
+}
+
+.box-left div{
+	margin: 10px;
+}
